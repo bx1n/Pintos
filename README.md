@@ -14,17 +14,17 @@ If you are using Ubuntu: ```sudo apt-get install qemu```
 
 **Step 2: Download Pintos**
 
-Download Pintos from [here](http://www.stanford.edu/class/cs140/projects/pintos/pintos.tar.gz). Extract it in your home folder. Eg: /home/abhi/os. 'abhi' is your $HOME folder
+Download Pintos from [here](http://www.stanford.edu/class/cs140/projects/pintos/pintos.tar.gz). Extract it in your home folder. Eg: /home/username/os. 'username' is your $HOME folder
 
 **Step 3: Set GDBMACROS**
 
 Now open the script ‘pintos-gdb’ (in $HOME/os/pintos/src/utils) in any text editor. Find the variable GDBMACROS and set it to point to ‘$HOME/os/pintos/src/misc/gdb-macros’.
 
-Your 'gdb-macros' file will contain ```GDBMACROS=/home/abhi/os/pintos/src/misc/gdb-macros```
+Your 'gdb-macros' file will contain ```GDBMACROS=/home/username/os/pintos/src/misc/gdb-macros```
 
 **Step 4: Compiling utilities**
 
-Go to /home/pintos/os/src/utils: ```cd /home/abhi/os/pintos/src/utils```
+Go to /home/pintos/os/src/utils: ```cd /home/username/os/pintos/src/utils```
 
 And compile utilities folder: ```make```
 
