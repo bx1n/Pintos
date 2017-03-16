@@ -24,11 +24,11 @@ Your 'gdb-macros' file will contain ```GDBMACROS=/home/abhi/os/pintos/src/misc/g
 
 **Step 4: Compiling utilities**
 
-Go to /home/pintos/os/src/utils ```cd /home/abhi/os/pintos/src/utils```
+Go to /home/pintos/os/src/utils: ```cd /home/abhi/os/pintos/src/utils```
 
-And compile utilities folder ```make```
+And compile utilities folder: ```make```
 
-If this preoduces an error: “Undefined reference to ‘floor'” then edit “Makefile” in the current directory and replace “LDFLAGS = -lm” by “LDLIBS = -lm” and compile again.
+If this preoduces an error: ```Undefined reference to ‘floor'``` then edit “Makefile” in the current directory and replace ```LDFLAGS = -lm``` by ```LDLIBS = -lm``` and compile again.
 
 
 
